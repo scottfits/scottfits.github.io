@@ -37,9 +37,15 @@
     <h2>
         Writing
     </h2>
-   
-    <div id="markdown"></div>
 
+    <div id="contents"></div>
+    <script>
+        fetch('/content/california.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contents').innerHTML = data;
+            });
+    </script>
 </body>
 
 </html>
