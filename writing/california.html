@@ -27,19 +27,25 @@
 <body>
 
     <header>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="questions.html">Questions</a>
-        <a href="writing.html">Writing</a>
-        <a href="books.html">Books</a>
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/questions.html">Questions</a>
+        <a href="/writing.html">Writing</a>
+        <a href="/books.html">Books</a>
     </header>
 
     <h2>
         Writing
     </h2>
-   
-    <div id="markdown"></div>
 
+    <div id="contents"></div>
+    <script>
+        fetch('/content/california.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contents').innerHTML = data;
+            });
+    </script>
 </body>
 
 </html>
