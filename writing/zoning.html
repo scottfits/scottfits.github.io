@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <script src="marked.js"></script>
+    <style>
+        body {
+            font-family: Helvetica, sans-serif;
+            font-size: 20px;
+            margin: 0 20% 20% 20%;
+            line-height: 1.2;
+        }
+
+        header {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        header a {
+            margin-right: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/questions.html">Questions</a>
+        <a href="/writing.html">Writing</a>
+        <a href="/books.html">Books</a>
+    </header>
+
+    <h2>
+        Writing
+    </h2>
+
+    <div id="contents"></div>
+    <script>
+        fetch('/content/zoning.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contents').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
