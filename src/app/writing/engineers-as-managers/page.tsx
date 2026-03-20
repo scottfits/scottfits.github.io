@@ -48,7 +48,7 @@ These are truly unprecedented times. The engineers and teams who figure this out
         A memo I shared with our product and engineering team at AirGarage
       </div>
       <div className="text-sm text-gray-400 mb-8">
-        January 2025
+        March 2026
       </div>
 
       <ReactMarkdown

@@ -6,7 +6,7 @@ export default function Writing() {
       slug: 'engineers-as-managers',
       title: "The Year Engineers Became Managers",
       description: "A memo I shared with our product and engineering team at AirGarage",
-      date: "January 2025"
+      date: "March 2026"
     },
     {
       slug: 'california',
