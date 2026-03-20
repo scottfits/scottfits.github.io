@@ -3,6 +3,11 @@ import Link from 'next/link'
 export default function Writing() {
   const articles = [
     {
+      slug: 'ai-engineering',
+      title: "The Year Engineers Became Managers",
+      description: "The craft of building software now requires a new skill — management"
+    },
+    {
       slug: 'california',
       title: "What's Holding California Back",
       description: "An exploration of the land use policies that keep California expensive and exclusive"
@@ -24,7 +29,7 @@ export default function Writing() {
       <h2 className="text-3xl font-bold mb-6">Writing</h2>
       
       <p className="text-lg mb-8 text-gray-700">
-        Thoughts on cities, housing, governance, and building better communities.
+        Thoughts on technology, cities, housing, governance, and building better communities.
       </p>
       
       <div className="space-y-6">
