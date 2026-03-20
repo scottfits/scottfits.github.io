@@ -3,8 +3,11 @@ export default function ZoningArticle() {
     <article className="prose prose-lg max-w-none">
       <h1 className="text-3xl font-bold mb-6">Should Zoning be Unconstitutional?</h1>
       
-      <div className="text-gray-600 mb-8">
+      <div className="text-gray-600 mb-2">
         Examining the legal and moral case against exclusionary zoning
+      </div>
+      <div className="text-sm text-gray-400 mb-8">
+        March 2023
       </div>
       
       <div className="space-y-4 text-lg">

@@ -38,6 +38,7 @@ export default function RootLayout({
                     <Link href="/books" className="block py-1">books</Link>
                     <Link href="/investing" className="block py-1">investing</Link>
                     <Link href="/questions" className="block py-1">questions</Link>
+                    <Link href="/writing" className="block py-1">writing</Link>
                   </div>
                                   <br />
                                   <div className="space-y-1">

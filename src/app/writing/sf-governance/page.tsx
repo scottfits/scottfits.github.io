@@ -3,8 +3,11 @@ export default function SFGovernanceArticle() {
     <article className="prose prose-lg max-w-none">
       <h1 className="text-3xl font-bold mb-6">One Simple Way to Improve San Francisco&apos;s Governance</h1>
       
-      <div className="text-gray-600 mb-8">
+      <div className="text-gray-600 mb-2">
         A proposal for making San Francisco&apos;s government more effective
+      </div>
+      <div className="text-sm text-gray-400 mb-8">
+        October 2023
       </div>
       
       <div className="space-y-4 text-lg">

@@ -3,24 +3,28 @@ import Link from 'next/link'
 export default function Writing() {
   const articles = [
     {
-      slug: 'ai-engineering',
+      slug: 'engineers-as-managers',
       title: "The Year Engineers Became Managers",
-      description: "The craft of building software now requires a new skill — management"
+      description: "A memo I shared with our product and engineering team at AirGarage",
+      date: "January 2025"
     },
     {
       slug: 'california',
       title: "What's Holding California Back",
-      description: "An exploration of the land use policies that keep California expensive and exclusive"
+      description: "An exploration of the land use policies that keep California expensive and exclusive",
+      date: "June 2022"
     },
     {
       slug: 'sf-governance',
       title: "One Simple Way to Improve San Francisco's Governance",
-      description: "A proposal for making San Francisco's government more effective"
+      description: "A proposal for making San Francisco's government more effective",
+      date: "October 2023"
     },
     {
       slug: 'zoning',
       title: "Should Zoning be Unconstitutional?",
-      description: "Examining the legal and moral case against exclusionary zoning"
+      description: "Examining the legal and moral case against exclusionary zoning",
+      date: "March 2023"
     }
   ]
   
@@ -41,6 +45,9 @@ export default function Writing() {
               </h3>
               <p className="text-gray-600">
                 {article.description}
+              </p>
+              <p className="text-sm text-gray-400 mt-1">
+                {article.date}
               </p>
             </Link>
           </div>

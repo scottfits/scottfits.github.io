@@ -44,8 +44,11 @@ These are truly unprecedented times. The engineers and teams who figure this out
     <article className="prose prose-lg max-w-none">
       <h1 className="text-3xl font-bold mb-6">The Year Engineers Became Managers</h1>
 
-      <div className="text-gray-600 mb-8">
-        The craft of building software now requires a new skill — management
+      <div className="text-gray-600 mb-2">
+        A memo I shared with our product and engineering team at AirGarage
+      </div>
+      <div className="text-sm text-gray-400 mb-8">
+        January 2025
       </div>
 
       <ReactMarkdown

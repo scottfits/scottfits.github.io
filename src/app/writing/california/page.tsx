@@ -65,8 +65,11 @@ This is because apartments, which provide cheaper, denser housing are illegal to
     <article className="prose prose-lg max-w-none">
       <h1 className="text-3xl font-bold mb-6">What&apos;s Holding California Back</h1>
       
-      <div className="text-gray-600 mb-8">
+      <div className="text-gray-600 mb-2">
         An exploration of the land use policies that keep California expensive and exclusive
+      </div>
+      <div className="text-sm text-gray-400 mb-8">
+        June 2022
       </div>
       
       <ReactMarkdown 
